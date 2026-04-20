@@ -1,0 +1,11 @@
+<svg width="780" height="620" viewBox="0 0 780 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="780" height="620" rx="28" fill="#E9EEF2"/>
+  <rect x="84" y="98" width="612" height="354" rx="20" fill="#2E3440"/>
+  <rect x="114" y="132" width="130" height="92" rx="10" fill="#51C2E0"/>
+  <rect x="258" y="132" width="130" height="92" rx="10" fill="#6ACB73"/>
+  <rect x="402" y="132" width="130" height="92" rx="10" fill="#F3B950"/>
+  <rect x="546" y="132" width="120" height="92" rx="10" fill="#EA6B56"/>
+  <rect x="114" y="242" width="552" height="178" rx="14" fill="#FFFFFF"/>
+  <rect x="300" y="468" width="180" height="90" rx="12" fill="#111827"/>
+  <text x="58" y="580" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">POS</text>
+</svg>

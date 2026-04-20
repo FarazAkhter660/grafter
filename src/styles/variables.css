@@ -1,0 +1,17 @@
+:root {
+  --font-family: "Inter", "Segoe UI", sans-serif;
+  --bg-color: #f3f3f3;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6f6f6f;
+  --text-tertiary: #8f8f8f;
+  --card-bg: #f1f1f1;
+  --border-soft: #d9d9d9;
+  --gradient-main: linear-gradient(90deg, #3b82f6, #f97316);
+  --gradient-yellow: linear-gradient(160deg, #ffcf44, #f59e0b);
+  --gradient-blue: linear-gradient(160deg, #49c6df, #3b82f6);
+  --gradient-orange: linear-gradient(160deg, #ff6a5c, #f97316);
+  --container-width: 1180px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+  --transition-base: 300ms ease;
+}

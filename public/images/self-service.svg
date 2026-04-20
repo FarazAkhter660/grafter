@@ -1,0 +1,13 @@
+<svg width="780" height="620" viewBox="0 0 780 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="780" height="620" rx="28" fill="#ECEFF2"/>
+  <rect x="286" y="84" width="208" height="390" rx="30" fill="#2D3038"/>
+  <rect x="302" y="112" width="176" height="330" rx="16" fill="#FFFFFF"/>
+  <rect x="316" y="138" width="148" height="24" rx="8" fill="#E8E8E8"/>
+  <rect x="316" y="180" width="148" height="74" rx="12" fill="#DDECF7"/>
+  <rect x="316" y="268" width="70" height="70" rx="10" fill="#F8CF9F"/>
+  <rect x="394" y="268" width="70" height="70" rx="10" fill="#B6D8A7"/>
+  <rect x="316" y="348" width="148" height="18" rx="8" fill="#D8D8D8"/>
+  <rect x="316" y="376" width="148" height="18" rx="8" fill="#D8D8D8"/>
+  <rect x="280" y="474" width="220" height="98" rx="18" fill="#D4D7DB"/>
+  <text x="222" y="590" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Self service</text>
+</svg>
