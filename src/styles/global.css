@@ -53,12 +53,6 @@ a {
   margin-bottom: 52px;
 }
 
-.hero-nav__logo {
-  width: 136px;
-  height: 38px;
-  object-fit: contain;
-}
-
 .hero-nav__links {
   display: flex;
   gap: 28px;

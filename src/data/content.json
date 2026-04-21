@@ -1,18 +1,4 @@
 {
-  "navigation": {
-    "logo": {
-      "src": "/images/grafterr-logo.svg",
-      "alt": "Grafterr"
-    },
-    "links": [
-      { "label": "Products", "href": "#products" },
-      { "label": "Solutions", "href": "#solutions" }
-    ],
-    "cta": {
-      "label": "Learn more",
-      "href": "#features"
-    }
-  },
   "hero": {
     "headlinePrefix": "Looking for a new",
     "headlineGradient": "technology provider?",
@@ -22,9 +8,21 @@
       "href": "#features"
     },
     "decorativeShapes": [
-      { "id": "hero-top", "variant": "yellow", "positionClass": "floating-shape--hero-top" },
-      { "id": "hero-left", "variant": "blue", "positionClass": "floating-shape--hero-left" },
-      { "id": "hero-right", "variant": "orange", "positionClass": "floating-shape--hero-right" }
+      {
+        "id": "hero-top",
+        "variant": "yellow",
+        "positionClass": "floating-shape--hero-top"
+      },
+      {
+        "id": "hero-left",
+        "variant": "blue",
+        "positionClass": "floating-shape--hero-left"
+      },
+      {
+        "id": "hero-right",
+        "variant": "orange",
+        "positionClass": "floating-shape--hero-right"
+      }
     ]
   },
   "featuresSection": {

@@ -20,18 +20,6 @@ const HeroSection = ({ navigation, hero, isLoading }) => {
 
   return (
     <section className="hero-section container">
-      <header className="hero-nav">
-        <img src={navigation.logo.src} alt={navigation.logo.alt} className="hero-nav__logo" />
-        <nav className="hero-nav__links">
-          {navigation.links.map((link) => (
-            <a key={link.label} href={link.href}>
-              {link.label}
-            </a>
-          ))}
-        </nav>
-        <GradientButton href={navigation.cta.href}>{navigation.cta.label}</GradientButton>
-      </header>
-
       <div className="hero-section__content fade-in">
         <h1>
           {hero.headlinePrefix} <GradientText>{hero.headlineGradient}</GradientText>
@@ -53,10 +41,6 @@ const HeroSection = ({ navigation, hero, isLoading }) => {
 
 HeroSection.propTypes = {
   navigation: PropTypes.shape({
-    logo: PropTypes.shape({
-      src: PropTypes.string.isRequired,
-      alt: PropTypes.string.isRequired
-    }).isRequired,
     links: PropTypes.arrayOf(
       PropTypes.shape({
         label: PropTypes.string.isRequired,
