@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Raleway:wght@400;600;700&family=Urbanist:wght@700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -68,6 +70,7 @@ a {
 
 .hero-section__content h1 {
   margin: 0;
+  font-family: var(--font-family-raleway);
   font-size: clamp(34px, 5vw, 64px);
   line-height: 1.02;
   font-weight: 700;
@@ -77,6 +80,7 @@ a {
 .hero-section__content p {
   margin: 24px auto 28px;
   max-width: 560px;
+  font-family: var(--font-family-raleway);
   color: var(--text-secondary);
   font-size: 20px;
   line-height: 1.55;
@@ -99,6 +103,7 @@ a {
   border-radius: var(--radius-pill);
   background: var(--gradient-main);
   color: #fff;
+  font-family: var(--font-family-raleway);
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -162,9 +167,11 @@ a {
 
 .features-section h2 {
   margin: 0;
+  font-family: var(--font-family-raleway);
   font-size: clamp(34px, 4vw, 52px);
   line-height: 1.08;
   letter-spacing: -0.02em;
+  font-weight: 600;
 }
 
 .features-section h2 span {
@@ -174,6 +181,7 @@ a {
 .features-section p {
   max-width: 740px;
   margin: 24px auto 26px;
+  font-family: var(--font-family-raleway);
   color: var(--text-tertiary);
   font-size: 18px;
   line-height: 1.5;
@@ -211,15 +219,18 @@ a {
   min-height: 440px;
   border-radius: var(--radius-lg);
   background: var(--card-bg);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
-  padding: 24px 20px 0;
+  padding: 40px 35px 0;
 }
 
 .product-card h3 {
   margin: 0 0 16px;
-  font-size: 36px;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
+  font-family: var(--font-family-display);
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  font-weight: 700;
 }
 
 .product-card__image-wrap {
@@ -336,6 +347,46 @@ a {
   }
 }
 
+@media (min-width: 1100px) {
+  .hero-section__content {
+    max-width: 900px;
+  }
+
+  .carousel__slide {
+    flex-basis: calc(100% / 3);
+  }
+
+  .hero-section__content h1 {
+    font-size: 75px;
+    line-height: 94px;
+    letter-spacing: -1px;
+  }
+
+  .hero-section__content p {
+    max-width: 690px;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    font-weight: 400;
+  }
+
+  .features-section h2 {
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.035em;
+    font-weight: 600;
+  }
+
+  .features-section p {
+    max-width: 935px;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    color: #777777;
+    font-weight: 400;
+  }
+}
+
 @media (max-width: 767px) {
   .app {
     padding-top: 14px;
@@ -382,6 +433,7 @@ a {
   .product-card {
     min-height: 380px;
     padding-top: 18px;
+    padding-inline: 20px;
   }
 
   .product-card h3 {
